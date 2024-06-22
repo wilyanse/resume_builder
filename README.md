@@ -19,8 +19,8 @@
 - [ ] Add option to remove Graduation date
 - [ ] Separate first and last name form fields
 
-### Resume Database Model
-1. Work Experience
+## Resume Database Model
+### 1. Work Experience
 - Company Name
     - string
 - Job Position
@@ -39,7 +39,7 @@
         - importance level is int
 - Tech stack
     - list of strings
-2. Education
+### 2. Education
 - School Name
     - string
 - Graduation Date
@@ -54,7 +54,7 @@
         - importance level is int
 - Courses covered
     - list of strings
-3. Organizations
+### 3. Organizations
 - Organization Name
     - string
 - Position
@@ -67,10 +67,10 @@
     - list of (detail, importance level)
         - detail is string
         - importance level is int
-4. Skills & Interests
+### 4. Skills & Interests
 - General Field
     - list of strings
-5. Projects
+### 5. Projects
 - Project name
     - string
 - Github link
@@ -81,7 +81,7 @@
         - importance level is int
 - Tech stack
     - list of strings
-6. Character Reference
+### 6. Character Reference
 - Name
     - string
 - Email
@@ -94,7 +94,7 @@
     - string
 - Description
     - string
-7. Header
+### 7. Header
 - Name
     - string
 - Email
@@ -107,5 +107,5 @@
     - string link format
 - Github link
     - string link format
-8. Footer
+### 8. Footer
 - Last name
